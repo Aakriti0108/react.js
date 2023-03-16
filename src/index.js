@@ -224,10 +224,146 @@
 
 // video 18
 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+
+//       ReactDOM.render(
+//             <App/>
+//             ,document.getElementById("root"));
+
+//mini project
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+// import './index.css';
+
+// ReactDOM.render(<App/>,document.getElementById("root"));
+
+// video 20
+
+// 1st part
+// import React from "react";
+// import ReactDOM  from "react-dom";
+// import youtuber from "./App";
+
+// ReactDOM.render(
+//     <div>
+//     <ol>
+//     <li>Thapa</li>
+//     <li>{youtuber}</li>
+//     </ol>
+//     </div>,document.getElementById("root")
+// );
+
+//2nd part
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import youtuber,{favProg,myName,myNames} from "./App";
+
+// ReactDOM.render(
+//     <React.Fragment>
+//     <ol>
+//     <li>Thapa</li>
+//     <li>{youtuber}</li>
+//     <li>{favProg}</li>
+//     <li>{myName()}</li>
+//     <li>{myNames()}</li>
+//     </ol>
+//     </React.Fragment>,document.getElementById("root")
+// );
+ 
+//3rd part
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import * as ques from "./App";
+
+// ReactDOM.render(
+//     <React.Fragment>
+//     <ol>
+//     <li>Thapa</li>
+//     <li>{ques.default}</li>
+//     <li>{ques.favProg}</li>
+//     <li>{ques.myName()}</li>
+//     <li>{ques.myNames()}</li>
+//     </ol>
+//     </React.Fragment>,document.getElementById("root")
+// );
+
+// video 21
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+
+//     ReactDOM.render(
+//        <App />,document.getElementById("root")
+//     );
+
+
+// video 22
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import Card from './Card'
+// ReactDOM.render(
+//    <React.Fragment>
+//    <Card imgsrc="https://images.unsplash.com/photo-1597633244018-0201d0158aab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFnc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+//        title ="A bag "
+//        sname= "DARK"  
+//        link= "https://unsplash.com/photos/oCXVxwTFwqE"/>
+//    <Card imgsrc="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFnc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60h.com/photos/nvQemFKRBUo"
+//    title ='A blue bag' 
+//    sname ="Blue"
+//    link ='https://unsplash.com/photos/nvQemFKRBUo' />
+//    <Card  imgsrc="https://images.unsplash.com/photo-1585488763177-bde7d15fd3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhZ3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+//     title = 'A Pink Bag'
+//     sname = "pink" 
+//     link ="https://unsplash.com/photos/N8CwCRjp0LA"/>
+//    </React.Fragment>,document.getElementById("root"));
+
+
+// video 23 
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Sdata from './Sdata';
+import Card from './Card';
+import './index.css'
 
-      ReactDOM.render(
-            <App/>
-            ,document.getElementById("root"));
+ReactDOM.render(
+    <React.Fragment>
+    <h1 className='heading_style'>List All the bags </h1>
+    <Card 
+    imgsrc={Sdata[0].imgsrc}
+    title={Sdata[0].title}
+    sname={Sdata[0].sname}
+    link={Sdata[0].link}
+    />
+    <Card 
+    imgsrc={Sdata[1].imgsrc}
+    title={Sdata[1].title}
+    sname={Sdata[1].sname}
+    link={Sdata[1].link}
+    />
+    <Card 
+    imgsrc={Sdata[2].imgsrc}
+    title={Sdata[2].title}
+    sname={Sdata[2].sname}
+    link={Sdata[2].link}
+    />
+    <Card 
+    imgsrc={Sdata[3].imgsrc}
+    title={Sdata[3].title}
+    sname={Sdata[3].sname}
+    link={Sdata[3].link}
+    />
+    <Card 
+    imgsrc={Sdata[4].imgsrc}
+    title={Sdata[4].title}
+    sname={Sdata[4].sname}
+    link={Sdata[4].link}
+    />
+    </React.Fragment>
+    
+    ,document.getElementById("root"));
