@@ -104,22 +104,22 @@
 
 
 // video 21
-import React from 'react';
+// import React from 'react';
 
-import {add,sub,mult,div} from './Calc';
+// import {add,sub,mult,div} from './Calc';
 
-function App()
-{
-   return (
-    <div>
-    <ul>
-    <li>{add(40,4)}</li>
-    <li>{sub(40,4)}</li>
-    <li>{mult(40,4)}</li>
-    <li>{div(40,4)}</li>
-    </ul>
-    </div>
-       );
-}
+// function App()
+// {
+//    return (
+//     <div>
+//     <ul>
+//     <li>{add(40,4)}</li>
+//     <li>{sub(40,4)}</li>
+//     <li>{mult(40,4)}</li>
+//     <li>{div(40,4)}</li>
+//     </ul>
+//     </div>
+//        );
+// }
 
-export default App;
+// export default App;
