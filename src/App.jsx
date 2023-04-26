@@ -123,3 +123,31 @@
 // }
 
 // export default App;
+
+// video 26
+
+import React from "react";
+import Amazon from "./amazon";
+import Netflix from "./netflix"
+
+const favSeries = 'Amazon`';
+const FavS = ()=>{
+if(favSeries === "netflix")
+{
+   return <Netflix />;
+}
+else
+{
+return <Amazon />
+}
+}
+
+
+const App = () =>(
+    <>
+    <h1 className ="heading_style"> List of all 5 NetFlex</h1>
+    <FavS />
+    </>
+)
+
+export default App;
