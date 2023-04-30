@@ -171,11 +171,25 @@
 
 // video 29
 
-import React from "react";
+// import React from "react";
+
+// const App = () =>{
+//     let x ="Aakriti 😃";
+    
+//     return <h1 style={{color:"yellow"}}> My Name is Miss.<span style={{color:"green"}}>{x}</span></h1>
+// }
+// export default App;
+
+// video 28
+
+import React  from "react";
 
 const App = () =>{
-    let x ="Aakriti 😃";
-    
-    return <h1 style={{color:"yellow"}}> My Name is Miss.<span style={{color:"green"}}>{x}</span></h1>
-}
+   return (
+            <>
+            
+            </>
+   );
+};
+
 export default App;

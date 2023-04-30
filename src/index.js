@@ -12,7 +12,7 @@
 // );
 
 
-// ###video10##
+// ###video10##   
 
 // import React from 'react';
 // import ReactDOM  from 'react-dom';
@@ -417,10 +417,19 @@
 
 // video 26
 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from "./App";
+
+// ReactDOM.render(
+//     <App/>,document.getElementById("root"));
+
+// video 27
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from "./App";
+import "./index.css";
+import Slot from "./slot";
 
-ReactDOM.render(
-    <App/>,document.getElementById("root"));
+ReactDOM.render(<Slot />,document.getElementById("root"));
