@@ -427,9 +427,19 @@
 
 // video 27
 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import "./index.css";
+// import Slot from "./slot";
+
+// ReactDOM.render(<Slot />,document.getElementById("root"));
+
+
+// video 30
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./index.css";
-import Slot from "./slot";
+import './hooks.css';
+import Hooks from "./startHooks";
 
-ReactDOM.render(<Slot />,document.getElementById("root"));
+ReactDOM.render(<Hooks />,document.getElementById("root"))
