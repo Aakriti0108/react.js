@@ -404,6 +404,7 @@ ReactDOM.render(
     <React.Fragment>
     <h1 className='heading_style'>List of all Lists</h1>
     {Sdata.map((val)=><Card
+        key={val.id}
         imgsrc={val.imgsrc}
         title={val.title}
         sname={val.sname}
