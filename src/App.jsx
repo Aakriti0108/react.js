@@ -123,3 +123,76 @@
 // }
 
 // export default App;
+
+// video 26
+
+// import React from "react";
+// import Amazon from "./amazon";
+// import Netflix from "./netflix"
+
+// const favSeries = 'Amazon`';
+// const FavS = ()=>{
+// if(favSeries === "netflix")
+// {
+//    return <Netflix />;
+// }
+// else
+// {
+// return <Amazon />
+// }
+// }
+
+
+// const App = () =>(
+//     <>
+//     <h1 className ="heading_style"> List of all 5 NetFlex</h1>
+//     <FavS />
+//     </>
+// )
+
+// export default App;
+
+// video 27
+
+// import React from "react";
+// import Amazon from "./amazon";
+// import Netflix from "./netflix";
+
+// let FavSeries ="netflix";
+// const App = () => (
+//     <>
+//     <h1 className="heading_style"> LIST OF 5 Netflix Series in 2020</h1>
+
+//     {FavSeries === "netflix" ? <Netflix /> : <Amazon />}
+//     </>
+// );
+
+// export default App;
+
+// video 29
+
+// import React from "react";
+
+// const App = () =>{
+//     let x ="Aakriti 😃";
+    
+//     return <h1 style={{color:"yellow"}}> My Name is Miss.<span style={{color:"green"}}>{x}</span></h1>
+// }
+// export default App;
+
+// video 28
+
+// import React  from "react";
+
+// const App = () =>{
+//    return (
+//             <>
+            
+//             </>
+//    );
+// };
+
+// export default App;
+
+
+
