@@ -12,13 +12,12 @@ const Hooks = () =>{
   }
 
   return (
-    <>
+
     <div>
     <h1> {count} </h1>
     <button onClick={IncNum}>click Me</button>
     </div>
-    </>
-
+    
   );
 };
 
