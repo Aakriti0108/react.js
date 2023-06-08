@@ -437,9 +437,28 @@
 
 // video 30
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './hooks.css';
-import Hooks from "./startHooks";
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './hooks.css';
+// import Hooks from "./startHooks";
 
-ReactDOM.render(<Hooks />,document.getElementById("root"))
+// ReactDOM.render(<Hooks />,document.getElementById("root"))
+
+// video 31 // 32 
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './hooks.css';
+// import Hooks from "./startHooks";
+
+// ReactDOM.render(<Hooks />,document.getElementById("root"));
+
+// video 33 
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from './App';
+import Hooks from "./startHooks"
+
+ReactDOM.render(<Hooks />,document.getElementById("root"));
