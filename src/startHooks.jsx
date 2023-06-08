@@ -61,7 +61,6 @@ const Hooks = () =>{
 
   setInterval(UpdateTime,2000);
 
-<<<<<<< HEAD
   return(
     <>
     <h1>{ctime}</h1>
@@ -70,16 +69,5 @@ const Hooks = () =>{
 
 
 }
-=======
-  return (
-
-    <div>
-    <h1> {count} </h1>
-    <button onClick={IncNum}>click Me</button>
-    </div>
-    
-  );
-};
->>>>>>> d9a9886a221a387a0f034522abecb5491df678ee
 
 export default Hooks;

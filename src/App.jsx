@@ -195,38 +195,38 @@
 // export default App;
 
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-const App = () =>{
-    const purple = "pink";
-    const clickMe = 'Click Me';
-    const [bg, setBg] = useState(purple);
-    const [name, setName] = useState(clickMe);
+// const App = () =>{
+//     const purple = "pink";
+//     const clickMe = 'Click Me';
+//     const [bg, setBg] = useState(purple);
+//     const [name, setName] = useState(clickMe);
 
-    const bgChange = () =>{
-        let newbg = '#34495e';
-        let newName = 'ounch';
-        setBg(newbg);
-        setName(newName);
-        // console.log('clicked!!'); 
-    }
+//     const bgChange = () =>{
+//         let newbg = '#34495e';
+//         let newName = 'ounch';
+//         setBg(newbg);
+//         setName(newName);
+//         // console.log('clicked!!'); 
+//     }
 
-    const bgChanges = () =>{
-        let newbg = 'yellow';
-        let newName = 'wow';
-        setBg(newbg);
-        setName(newName);
-        // console.log('clicked!!'); 
-    }
+//     const bgChanges = () =>{
+//         let newbg = 'yellow';
+//         let newName = 'wow';
+//         setBg(newbg);
+//         setName(newName);
+//         // console.log('clicked!!'); 
+//     }
 
-    return(
-        <>
-        <div style={{ backgroundColor: bg }}>
-            <button onClick={bgChange} onDoubleClick={bgChanges}> {name} </button>
-        </div>
-        </>
-    )
-}
+//     return(
+//         <>
+//         <div style={{ backgroundColor: bg }}>
+//             <button onClick={bgChange} onDoubleClick={bgChanges}> {name} </button>
+//         </div>
+//         </>
+//     )
+// }
 
-export default App;
+// export default App;
 
