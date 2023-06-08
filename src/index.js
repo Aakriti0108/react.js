@@ -437,6 +437,7 @@
 
 // video 30
 
+<<<<<<< HEAD
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // import './hooks.css';
@@ -462,3 +463,22 @@ import App from './App';
 import Hooks from "./startHooks"
 
 ReactDOM.render(<Hooks />,document.getElementById("root"));
+=======
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Card from './Card';
+import Sdata from './Sdata';
+import './index.css';
+
+ReactDOM.render(
+    <React.Fragment>
+    <h1 className='heading_style'>List of all Lists</h1>
+    {Sdata.map((val)=><Card
+        imgsrc={val.imgsrc}
+        title={val.title}
+        sname={val.sname}
+        link={val.link}
+        />)}
+    </React.Fragment>,document.getElementById("root"));
+ 
+>>>>>>> d9a9886a221a387a0f034522abecb5491df678ee
